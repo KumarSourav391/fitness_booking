@@ -15,16 +15,14 @@
 ### API Endpoints
 
 #### Get All Classes
-```
-cURL: 
-
+cURL:
+``` 
 curl --location 'http://127.0.0.1:5000/classes?timezone=UTC'
 ```
 
 #### Book a Class
-```
 cURL:
- 
+```
 curl --location 'http://127.0.0.1:5000/book' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -35,9 +33,8 @@ curl --location 'http://127.0.0.1:5000/book' \
 ```
 
 #### Get Bookings by Email
-```
 cURL:
-
+```
 curl --location 'http://127.0.0.1:5000/bookings?email=sourav%40example.com'
 ```
 
